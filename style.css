@@ -9,3 +9,131 @@ body {
     min-height: 100vh;
 }
 
+.left {
+    width: 50%;
+    background: url("./assets/halie-west-25xggax4bSA-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.658);
+    font-size: 2em;
+    padding: 12px;
+    position: relative;
+    top: 120px;
+}
+
+.banner h1 {
+    padding: 10px;
+}
+
+.credit {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    justify-self: center;
+}
+
+.credit span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.right {
+    background-color: rgba(250, 249, 245, 0.493);
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    gap: 20px;
+    height: 200px;
+    padding: 20px;
+    font-weight: 900;
+    line-height: 1.4rem;
+    font-size: 1.4rem;
+}
+
+form {
+    background-color: white;
+    height: 300px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.363);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-data {
+    display: flex;
+    gap: 20px;
+}
+
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 5px;
+}
+
+input {
+    padding: 4px;
+    cursor: pointer;
+}
+
+input[type="password"]:invalid {
+  border-color: #DC2626; 
+}
+
+input:focus {
+ border: 1px solid #3B82F6; 
+  box-shadow: 0 2px 6px rgba(59, 130, 246, 0.18);
+  outline: none;   
+}
+
+input[type="password"]:invalid {
+  border: 1px solid #DC2626;
+  box-shadow: 0 2px 6px rgba(220, 38, 38, 0.12);
+}
+
+input[type="password"]:focus:invalid {
+  border: 1px solid #DC2626;
+  box-shadow: 0 2px 6px rgba(220, 38, 38, 0.12);
+}
+
+
+
+.cta {
+    padding: 20px;
+}
+
+button {
+    background-color: rgba(0, 128, 0, 0.747);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+
+}
+
+.cta p {
+    margin-top: 10px;
+}
+
+.cta span {
+    font-weight: 600;
+    color: rgba(0, 128, 0, 0.747)
+}
